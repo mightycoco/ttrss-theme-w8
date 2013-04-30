@@ -1,0 +1,81 @@
+* {font-family: "Segoe UI", "Tahoma", "Arial" !important; }
+.dijitTreeIsRoot > .dijitTreeContainer > .dijitTreeNode > .dijitTreeRow.dijitTreeRowSelected {border:none;background:#094ab2;color:#fff;}
+.dijitTreeIsRoot > .dijitTreeContainer > .dijitTreeNode > .dijitTreeRow:hover {border:none;background: #00f; color: #fff;}
+.dijitTreeIsRoot > .dijitTreeContainer > .dijitTreeNode > .dijitTreeRow {padding:12px; margin: 0px; background: white; color: #000;}
+.dijitTreeIsRoot:first-child .feedIcon {display:none !important;}
+.dijitIconSave, .dijitIconPrint, .dijitIconCut, .dijitIconCopy, .dijitIconClear, .dijitIconDelete, .dijitIconUndo, .dijitIconEdit, .dijitIconNewTask, .dijitIconEditTask, .dijitIconEditProperty, .dijitIconTask, .dijitIconFilter, .dijitIconConfigure, .dijitIconSearch, .dijitIconApplication, .dijitIconBookmark, .dijitIconChart, .dijitIconConnector, .dijitIconDatabase, .dijitIconDocuments, .dijitIconMail, .dijitLeaf, .dijitIconFile, .dijitIconFunction, .dijitIconKey, .dijitIconPackage, .dijitIconSample, .dijitIconTable, .dijitIconUsers, .dijitFolderClosed, .dijitIconFolderClosed, .dijitFolderOpened, .dijitIconFolderOpen, .dijitIconError{background-image:url(../../../themes/w8/w8_commonIconsObjActEnabled.png);}
+.dijitTreeExpandoLeaf{display:none;}
+.dijitTreeIsRoot > .dijitTreeContainer > .dijitTreeNode > .dijitTreeRow .feedIcon {background:#f6f6f6;padding:8px;margin:-10px 0px -10px -10px;width:25px;height:25px;}
+.dijitTreeIsRoot > .dijitTreeContainer > .dijitTreeNode > .dijitTreeRow:hover .feedIcon {background:rgba(255,255,255,0.4);}
+.dijitSplitter  {background:#ddd !important;padding:0px;}
+
+#toolbar .dijitToolbar {background:#094ab2;padding:10px;font-size:120%;}
+#toolbar .dijitToolbar .dijitButtonContents {color: #fff;background:#094ab2;border:none;}
+#toolbar .dijitToolbar .dijitButtonNode {background:#094ab2;border:none}
+#headlines-wrap-inner #headlines-toolbar {background:#fff;padding:10px;border:none;}
+
+#headlines-frame .hl {box-shadow: none;border:none;padding:10px;background:#fff !important;font-size:120%;}
+#headlines-frame .hl .cdmHeader {background:Transparent;background-image: none !important;}
+#headlines-frame .hl .author{color:#666;}
+#headlines-frame .hl .cdmExcerpt{color:#666;display:block;}
+#headlines-frame .hl:hover {background:#094ab2 !important;}
+
+#headlines-frame .hl.Unread {box-shadow: none;border:none;padding:10px;background:#fff;font-size:120%}
+#headlines-frame .hl.Unread .author{color:#666;}
+#headlines-frame .hl.Unread .cdmExcerpt{color:#666;display:block;}
+#headlines-frame .hl.Unread:hover {background:#094ab2;color:#fff;}
+#headlines-frame .hl.Unread:hover .hlTitle{color:#fff;}
+
+#headlines-frame .hl.active.Selected {background:#094ab2 !important;}
+.postReply .postHeader { background: #094ab2 !important; color: #fff !important;}
+.postReply .postHeader a { color: #fff; font-size:120%;}
+.postReply .postHeader a:hover { color: #fff;}
+
+/*-------------*/
+
+#headlines-frame .cdm.expandable {box-shadow: none;border:none;padding:10px;background:#fff;font-size:120%;}
+#headlines-frame .cdm.expandable .cdmHeader {background:Transparent;background-image: none !important;}
+#headlines-frame .cdm.expandable .author{color:#666;}
+#headlines-frame .cdm.expandable .cdmExcerpt{color:#666;display:block;}
+#headlines-frame .cdm.expandable:hover {background:#094ab2;}
+#headlines-frame .cdm.expandable:hover .title{color:#fff;}
+#headlines-frame .cdm.expandable:hover .author{color:#ddd;}
+#headlines-frame .cdm.expandable:hover .cdmExcerpt{color:#ddd;}
+
+#headlines-frame .cdm.expandable.Unread {box-shadow: none;border:none;padding:10px;background:#fff;font-size:120%}
+#headlines-frame .cdm.expandable.Unread .author{color:#666;}
+#headlines-frame .cdm.expandable.Unread .cdmExcerpt{color:#666;display:block;}
+#headlines-frame .cdm.expandable.Unread:hover {background:#094ab2;color:#fff;}
+#headlines-frame .cdm.expandable.Unread:hover .title{color:#fff;}
+#headlines-frame .cdm.expandable.Unread:hover .author{color:#ddd;}
+#headlines-frame .cdm.expandable.Unread:hover .cdmExcerpt{color:#ddd;}
+
+#headlines-frame .cdm.expandable.active.Selected .cdmHeader {background:#094ab2;border-bottom:4px solid #ddd;padding:10px !important;margin:-10px;display:block;}
+#headlines-frame .cdm.expandable.active.Selected .cdmHeader a {color:#fff;}
+#headlines-frame .cdm.expandable.active.Selected .cdmFooter {background:#094ab2;opacity:0.6;border-top:4px solid #ddd;padding:2px !important;margin:-10px;display:block;}
+#headlines-frame .cdm.expandable.active.Selected .cdmFooter:hover {opacity:1.0;}
+#headlines-frame .cdm.expandable.active.Selected .cdmFooter a {color:#fff;}
+
+#headlines-frame .cdm.expandable .cdmContentInner p {max-width:650px;}
+.dijitSelect {border:none}
+
+::-webkit-scrollbar {width: 19px;}
+::-webkit-scrollbar-track {background-color: #ddd;}
+::-webkit-scrollbar-thumb {background-color: rgba(0, 0, 0, 0.1);}
+::-webkit-scrollbar-button {background:rgba(0,0,0,0.1) url(../../../themes/w8/controls.png) no-repeat;}
+::-webkit-scrollbar-button:horizontal:decrement {background-position: 0px -529px;}
+::-webkit-scrollbar-button:horizontal:increment {background-position: 0px -548px;}
+::-webkit-scrollbar-button:vertical:decrement {background-position: 0px -476px;}
+::-webkit-scrollbar-button:vertical:increment {background-position: 0px -497px;}
+::-webkit-scrollbar-corner {background-color: #ddd;}
+
+#collapse_feeds_btn{width:20px;height:20px;border: 2px solid #fff !important;border-radius:30px;background:url(../../../themes/w8/controls.png) no-repeat 3px -631px !important;margin-top:-3px; color:Transparent !important;}
+#collapse_feeds_btn:hover{border:1px solid red;}
+[widgetid='collapse_feeds_btn']:hover{padding:1px;}
+:focus{outline:none !important;}
+.dijitMenuItem .dijitMenuItemLabel {padding:10px !important;}
+.dijitMenuItemSelected {background:#ddd !important;border-color:#999 !important;}
+.dijitMenuItemSelected .dijitMenuItemLabel {background:#ddd !important;border-color:#999 !important;}
+.dijitComboButtonHover {padding:1px !important;}
+.claro .dijitProgressBarEmpty{border-color:#ccc;}
+.claro .dijitProgressBarTile{background:#ddd;}
