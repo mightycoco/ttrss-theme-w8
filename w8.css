@@ -1,8 +1,8 @@
 * {font-family: "Segoe UI", "Tahoma", "Arial" !important; }
 
 #feeds-holder > .dijitTree > .dijitTreeIsRoot > .dijitTreeContainer > .dijitTreeNode:first-child > .dijitTreeContainer > .dijitTreeNode { margin: 0px 5px 5px 0px; float:left;  }
-#feeds-holder > .dijitTree > .dijitTreeIsRoot > .dijitTreeContainer > .dijitTreeNode:first-child > .dijitTreeContainer > .dijitTreeNode .dijitTreeRow { width: 80px !important; height:80px !important; padding: 0px !important; background-color: rgba(9,74,178,0.7); overflow:hidden;}
-#feeds-holder > .dijitTree > .dijitTreeIsRoot > .dijitTreeContainer > .dijitTreeNode:first-child > .dijitTreeContainer > .dijitTreeNode > .dijitTreeRow > .dijitTreeContent  {width:100%;display:block; text-align: center;color:#fff;position:relative;white-space:normal;}
+#feeds-holder > .dijitTree > .dijitTreeIsRoot > .dijitTreeContainer > .dijitTreeNode:first-child > .dijitTreeContainer > .dijitTreeNode .dijitTreeRow { width: 80px !important; height:80px !important; padding: 0px 0px 0px 0px !important; background-color: rgba(9,74,178,0.7); overflow:hidden;}
+#feeds-holder > .dijitTree > .dijitTreeIsRoot > .dijitTreeContainer > .dijitTreeNode:first-child > .dijitTreeContainer > .dijitTreeNode > .dijitTreeRow > .dijitTreeContent  {width:100%;display:block; margin:10px 0px 0px 0px;text-align: center;color:#fff;position:relative;white-space:normal;}
 .dijitTreeIsRoot:first-child .feedIcon {float:right;width:20px !important; height:20px !important;top:50px; left:35px;background-color:Transparent !important; position:absolute;}
 
 .dijitTreeIsRoot > .dijitTreeContainer > .dijitTreeNode > .dijitTreeRow.dijitTreeRowSelected {border:none;background:#094ab2 !important;color:#fff;}
